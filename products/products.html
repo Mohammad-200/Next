@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet", href="products.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+      <div class="logo">Next</div>
+        <form class="search-bar" action=""> 
+          <input id="search-id" type="text" name="search" placeholder="Search..."> 
+          <button type="submit" class="search-button">Search</button> 
+         </form>
+      <!--div class="search-bar">
+      <input id="search-id" type="text" placeholder="Search...">
+      <button class="search-button">Search</button>
+      </div-->
+     <div class="cart">
+      <span class="cart-icon">&#128722;</span>
+      <span class="cart-items">0</span>
+    </div>
+  </div>
+
+  <!-- Products Content -->
+  <div class="main-container">
+    <h1>express a new images world</h1>
+    <div class="content-container">
+        <div class="search-results">
+            <img src="/images/search-image.jpg"
+             alt="Car in a garage">
+             <a href="https://unsplash.com/photos/m3m-lnR90uM" 
+             target="_blank">SEARCH</a>
+        </div>
+        <div class="search-results">
+            <img src="/images/for-image.png"
+             alt="Car in a garage">
+             <a href="https://unsplash.com/photos/m3m-lnR90uM" 
+             target="_blank">FOR</a>
+        </div>
+        <div class="search-results">
+            <img src="/images/anything-image.jpg"
+             alt="Car in a garage">
+             <a href="https://unsplash.com/photos/m3m-lnR90uM" 
+             target="_blank">ANYTHING</a>
+        </div>
+    </div>
+  </div>
+  <button id="show-more-button">Show more</button>
+  
+  <script src="products.js"></script>
+</body>
+</html>
